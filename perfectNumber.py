@@ -10,15 +10,15 @@
 from divisors import divisors
 #define the function header called perfectNumber expecting one argument
 def perfectNumber(x):
-    result = "false"
+    result = False
 
     if sum(divisors(x)) == x:
-        result = "True"
+        result = True
         
-    print(result)
+    
     return result
 
-perfectNumber(6)
+
     #set a result variable to False by default
     
     #if the sum of all the divisors of the number is equal to the test number
