@@ -18,4 +18,14 @@
             
  
     #return the list
-    
+def divisors(num):
+
+    myList = []
+
+    for i in range(1,num):
+        if num % i == 0:
+            myList.append(i)
+
+    return myList
+
+print(divisors(128))    
